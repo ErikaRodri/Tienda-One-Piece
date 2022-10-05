@@ -1,2 +1,2 @@
 # Tienda-One-Piece
-Tienda con tematica de One piece
+Tienda con tematica de One piece.
