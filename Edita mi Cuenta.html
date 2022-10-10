@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Tienda</title>
+    <style>
+        /*Con root indico las variables que estoy usando es style*/
+        :root{
+            --verde: #A8D6BC;
+            --gris: #E2E4DF;
+            --verde-musgo:#2A3B35;
+            --piel: #FFDAB6; 
+            --bordo: #994658;
+            --sm: 14px;
+            --me: 16px;
+            --lg: 20px;
+        }
+        body{
+            font-family: 'Figtree', sans-serif;
+            margin: 0;
+            background-color: var(--gris);
+        }
+        .login{
+          width: 100%;
+          display: grid;
+          place-items: center;
+          color: var(--verde-musgo);
+        }
+        .form-container{
+          display: grid;
+          grid-template-rows: auto 1r auto;
+          width: 75%px;
+          height: 100%;
+          padding: 8px;
+        }
+        .logo{
+          margin-top: 30%;
+          width: 100%;
+          height: max-content;
+          margin-bottom: -260px;
+          justify-self: center;
+          opacity: 0.30;
+        }
+        .title{
+          margin-top: -24%;
+          font-size: var(--lg);
+          color: black;
+          font-weight: 700;
+          text-align: center;
+        }
+        
+        .form {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .label{
+          font-size: var(--sm);
+          font-weight: bold;
+          margin-bottom: 4px;
+        }
+        .input {
+          background-color: var(--piel);
+          opacity: 0.50;
+          border-radius: 8px;
+          margin-bottom: 4px;
+          font-size: var(--me);
+          padding: 10px;
+        }
+        .primary-button {
+          background-color: var(--bordo);
+          font-size: var(--me);
+          font-weight: 600;
+          border-radius: 4px;
+          margin-bottom: 4px;
+          margin-top: 20px;
+          cursor: pointer;
+          height: 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="form-container">
+          <img src="./logo propio/thumb-169998.png" alt="logo" class="logo">
+    
+          <h1 class="title">My account</h1>
+        
+    
+          <form action="/" class="form">
+            <label for="name" class="label">Name</label>
+            <input type="text" id="name" placeholder="Juan Chiqui" class="input name">
+    
+            <label for="email" class="label">Email address</label>
+            <input type="email" id="email" placeholder="juancito091@chiqui.com" class="input email">
+            <label for="new-password" class="label">Password</label>
+            <input type="password" id="new-password" placeholder="*************" class="input password">
+
+            <input type="submit" value="Create" class="primary-button">
+          </form>
+        </div>
+      </div>
+</body>
+</html>
