@@ -51,7 +51,7 @@
           font-size: var(--lg);
           color: black;
           font-weight: 700;
-          text-align: center;
+          text-align:left;
         }
         
         .form {
@@ -60,28 +60,26 @@
         }
 
         .label{
-          font-size: var(--sm);
+          font-size: var(--me);
           font-weight: bold;
           margin-bottom: 4px;
+          margin-top: 8px;
         }
-        .input {
-          background-color: var(--piel);
-          opacity: 0.50;
-          border-radius: 8px;
-          margin-bottom: 4px;
-          font-size: var(--me);
-          padding: 10px;
-        }
+        
         .primary-button {
           background-color: var(--bordo);
           font-size: var(--me);
           font-weight: 600;
           border-radius: 4px;
           margin-bottom: 4px;
-          margin-top: 20px;
+          margin-top: 50px;
           cursor: pointer;
           height: 40px;
 
+        }
+        p {
+          margin-bottom: 4px;
+          font-size: var(--sm);
         }
     </style>
 </head>
@@ -95,14 +93,14 @@
     
           <form action="/" class="form">
             <label for="name" class="label">Name</label>
-            <input type="text" id="name" placeholder="Juan Chiqui" class="input name">
+            <p class="input name">Juan Chiqui</p>
     
             <label for="email" class="label">Email address</label>
-            <input type="email" id="email" placeholder="juancito091@chiqui.com" class="input email">
+            <p class="input email">juancito091@chiqui.com</p>
             <label for="new-password" class="label">Password</label>
-            <input type="password" id="new-password" placeholder="*************" class="input password">
+            <p class="input password">************</p>
 
-            <input type="submit" value="Create" class="primary-button">
+            <input type="submit" value="Edit" class="primary-button">
           </form>
         </div>
       </div>

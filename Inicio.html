@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Tienda</title>
+    <style>
+        /*Con root indico las variables que estoy usando es style*/
+        :root{
+            --verde: #A8D6BC;
+            --gris: #E2E4DF;
+            --verde-musgo:#2A3B35;
+            --piel: #FFDAB6; 
+            --bordo: #994658;
+            --sm: 14px;
+            --me: 16px;
+            --lg: 20px;
+        }
+        body{
+            font-family: 'Figtree', sans-serif;
+            margin: 0;
+            background-color: var(--gris);
+        }
+        .cabecera {
+            background-color: var(--verde);
+            text-align:center;
+            width: 100%;
+            
+        }
+        .logo{
+            max-height: 100px;
+        }
+        .tienda{
+            display: grid;
+            grid-template-columns:repeat(auto-fill, 200px) ;
+            place-content:center;
+            margin-top: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .img-container{
+            width: 90%;
+            margin-bottom: 20px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .Manga{
+            width: 100%;
+            height: 80%;
+        
+       
+        }
+        .produc-info{
+            display: flex;
+            justify-content:space-between;
+        }
+        .produc-info img{
+            max-width: 100%;
+        }
+        .titulo{
+            padding: 5px;
+            font-size: var(--me);
+            font-weight: 700;
+        }
+        .precio{
+            font-size: var(--me);
+            padding: 5px;
+            margin-top: -15px;
+        }
+    </style>
+    </head>
+    <body>
+        <header class="cabecera">
+                <img src="./logo propio/One-Piece-Symbol.png" class="logo">
+        </header>
+        <nav class="menu">
+            
+        </nav>    
+        <section class="tienda">
+            <div class="img-container">
+                <img class="Manga" src="https://m.media-amazon.com/images/I/81rEhhwbubL.jpg">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://media.game.es/COVERV2/3D_L/133/133786.png">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://www.tupersonalizas.es/wp-content/uploads/2021/08/Botella-One-Piece.png">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://m.media-amazon.com/images/I/81rEhhwbubL.jpg">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://media.game.es/COVERV2/3D_L/133/133786.png">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://www.tupersonalizas.es/wp-content/uploads/2021/08/Botella-One-Piece.png">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://m.media-amazon.com/images/I/81rEhhwbubL.jpg">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://media.game.es/COVERV2/3D_L/133/133786.png">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="Manga" src="https://cdn.shopify.com/s/files/1/0413/4253/3797/products/product-image-1142358955-removebg-preview.png?v=1603118773">
+                <div class="produc-info">
+                    <div>
+                        <p class="titulo">Manga</p>
+                        <p class="precio">12$</p>
+                    </div>
+                    <figure>
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png">
+                    </figure>
+                </div>
+            </div>
+          
+          
+            
+        
+        </section>
+    </body>
+    </html>
